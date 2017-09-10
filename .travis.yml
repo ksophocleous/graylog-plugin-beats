@@ -15,6 +15,7 @@ deploy:
   provider: releases
   api_key:
     secure: eHjvBI1PoSPEFYdpvHign7o9z42+xZQXvbEfP6F2SiBZmZE0n/yy37u3JJm9twy2QO51M15D3xBUuyoR8IAsQ4KPkFSSwv1xwQKZgUFw5VPvT5ocjhGJZUVxKo1fvSpBGDlZlXo00814XRpV89pKajIG85KT07Pp4SHQykbtJ8QPE94xnsVljUbIEA8TrPwPtT27q+opVEnW/dDo3O+0f4NoSo8TAVPuZYdLo8VoBtgS3U11sXbEKs2wxs8gFoabemtOjuswE7Ka7t+emo1UWPamtrw37rnkUwUP9fn05CGng98O6VmG49KQMRQx5IS5bHrvWAiqQ9LqKVGyYvHQ/o/E1pcwGP6hWH2tOmC3xVutR9VePSBwYaJrz4E7NSD6JJtpeY9KiZCj/3d/xjYr1+zpq9HLmsLYCFKRe+8oJtdTpkObKjL1izuyJgxxcMbm5RQDMI8K8Tu4fYcIKFnB5NWOYBbyi+ZVT0Oa0k9AN+oV5jDOQTXiNlgJ1rkNNmBmU/zGa43M2Y9aXKImL2/+9K8HyDbc5am3A0Z2l5zAnuk58HvMDF6fTj6YgfloGD5cl1Hhx/mk39LsNitXJ93tUA1eyGxV24l9xGdEzrG0socj+T0sg+IldyOwdZYQF5TJAkNhnslpY3rwr/VMXJoWn/bfLnBEGnaReNSFlZVZgWk=
+  file_glob: true
   file:
     - "**/target/*.jar"
     - "**/target/*.deb"
